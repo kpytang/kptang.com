@@ -1,2 +1,16 @@
-$linkColor: #EA7A58;
-$inverseNavColor: #999; 
+// color palette
+$orange: #C95E45;
+$teal: #61AAA9;
+$lightgray: #EBEBEB;
+$darkgray: #999999;
+
+// override bootstrap variables
+$link-color: $orange;
+$navbar-height: 60px;
+
+
+// fonts
+$small-font-size: 0.85em;
+
+// other layouts
+$article-spacer: 10px;

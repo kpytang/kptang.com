@@ -11,6 +11,7 @@
 
     <%= stylesheet_link_tag "app" %>
     <%= javascript_include_tag  "all" %>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   
   <body class="<%= page_classes %>">
@@ -18,12 +19,6 @@
 
     <%= yield %>
 
-    <footer class="navbar-inverse">
-      <div class="container">
-        <p class="pull-left">&copy; Karen P. Tang</p>
-        <p class="pull-right">April 2014</p>
-      </div>
-    </footer>
-
+    <%= partial "footer" %>
   </body>
 </html>

@@ -1,18 +1,138 @@
-.navbar-inverse .navbar-nav {
-  .active > a {
-    color: $linkColor;
-    background-color: transparent;
+// colors
+$subheading-color: lighten($orange, 20%);
+
+//==========================
+// Navbar
+//==========================
+.navbar {
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  .inactive a {
-      cursor: default;
+  background-color: $lightgray;
+}
+
+.navbar-nav {
+  li {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    a {
+      color: black;
       &:hover {
-        color: $inverseNavColor;
+        color: $link-color;
+        background-color: $lightgray;
+        border-bottom: 2px $link-color solid;
       }
+    }
+  }
+
+  li.active a, li.active a:hover {
+    font-size: 1em;
+    color: $link-color;
+    cursor: default;
+    background-color: $lightgray;
+    border-bottom: 2px $link-color solid;
+/*
+    margin-left: 5px;
+    margin-right: 5px;
+*/
+  }
+
+  li.inactive {
+    span {
+      display: block;
+      padding: 20px 15px;
+      color: gray;
+      font-weight: normal;
+      cursor: default;
+      background-color: $lightgray;
+      }
+    span.tooltips span {
+      top: 3em;
+      padding: 5px 0;
+      background-color: gray;
+      color: white;
+      text-transform: lowercase;
+      font-weight: normal;
+    }
   }
 }
 
+//==========================
+// Footer
+//==========================
 footer {
+  font-size: $small-font-size;
   padding-top: 15px;
   padding-bottom: 5px;
-  color: $inverseNavColor;
+  background-color: $lightgray;
+  text-align: center;
+  margin-top: 25px;
 }
+
+//==========================
+// Structural elements
+//==========================
+body {
+  margin-top: $navbar-height;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial,sans-serif;
+}
+
+.container {
+  @media (min-width: $screen-lg) {
+    width: 970px;
+  }
+}
+
+.row.no-gutter [class*='col-']:not(:first-child) {
+  padding-left: 0;
+}
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+}
+
+
+//==========================
+// Custom elements
+//==========================
+.subheading {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+// Tooltips
+.tooltips {
+  position: relative;
+
+  span {
+    margin-left: -999em;
+    position: absolute;
+  }
+
+  &:hover span {
+    position: absolute;
+    left: 1em;
+    z-index: 99;
+    margin-left: 0;
+    text-align: center;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+}
+
+img.social-media-icon {
+  @include square(32);
+  padding-bottom: 2px;
+}
+
+hr.separator {
+  width: 95%;
+  border-top: 1px solid lighten($gray-light, 25%);
+  padding-bottom: 2em;
+}
+
+//==========================
+// Media Queries
+//==========================
+

@@ -1,0 +1,24 @@
+<%= partial "hello" %>
+
+<section id="me" class="container">
+  <h2 class="subheading">about me</h2>
+  <p><%= lorem.paragraphs 2 %></p>
+</section>
+
+<section id="mywork" class="container">
+  <h2 class="subheading">about my work</h2>
+  <div class="row">
+    <div class="col-md-3">
+      <img src="<%= lorem.image('150x150') %>">
+    </div>
+    <div class="col-md-6">
+      <p><%= lorem.paragraphs 2 %></p>
+    </div>
+    <div class="col-md-3">
+      <img src="<%= lorem.image('150x300') %>">
+    </div>
+  </div>
+  <div class="row">
+    <img src="<%= lorem.image('900x100') %>">
+  </div>
+</section>
