@@ -1,0 +1,26 @@
+div#projects {
+    margin-top: 100px;
+}
+
+#projects #sidebar {
+    #view_type h2 {
+        margin-top: 5px;
+    }
+    button {
+        margin-bottom: 5px;
+    }
+}
+
+#projects #tiles {
+    padding-left: 45px; /* TODO: add to media query*/
+
+    .subheading {
+        padding: 8px
+    }
+
+    article.tile {
+        float: left;
+        padding: 8px;
+    }
+}
+

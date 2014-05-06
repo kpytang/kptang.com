@@ -1,4 +1,4 @@
-section#hello {
+#hello {
   margin-top: 100px;
   h1 {
     padding-top: 5px;
@@ -11,7 +11,7 @@ section#hello {
   }
 }
 
-section#projects, section#publications {
+#overview #projects, #overview #publications {
   padding-bottom: 20px;
   .subheading {
     display: inline-block;
@@ -19,13 +19,13 @@ section#projects, section#publications {
   }
 }
 
-section#projects {
+#overview #projects {
   img {
     padding-right: 10px;
   }
 }
 
-section#publications {
+#overview #publications {
   .author {
     font-size: $small-font-size;
   }
@@ -34,7 +34,7 @@ section#publications {
   }
 }
 
-section#feed {
+#overview #feed {
   font-size: $small-font-size;
   .date {
     color: $darkgray;

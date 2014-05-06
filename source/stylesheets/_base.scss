@@ -32,10 +32,6 @@ $subheading-color: lighten($orange, 20%);
     cursor: default;
     background-color: $lightgray;
     border-bottom: 2px $link-color solid;
-/*
-    margin-left: 5px;
-    margin-right: 5px;
-*/
   }
 
   li.inactive {
@@ -98,6 +94,12 @@ body {
 .subheading {
   font-weight: 300;
   font-size: 1.5em;
+}
+
+.subsubheading {
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 1em;
 }
 
 // Tooltips

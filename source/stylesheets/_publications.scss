@@ -1,0 +1,36 @@
+#publications {
+
+    .legend {
+        font-size: $small-font-size;
+        color: $darkgray;
+        padding-bottom: 10px;
+        font-style: italic;
+        
+        .legend-label {
+            padding-right: 10px;
+        }
+    }
+
+    .index {
+        font-size: $small-font-size;
+    }
+    .thumbnail {
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .citation {
+
+        .stats {
+            font-size: $small-font-size;
+            color: $darkgray;
+/*             float: left; */
+/*             padding-top: 2px; */
+        }
+        .links {
+            font-size: $small-font-size;
+            display: inline-block;
+            padding-left: 5px;
+        }
+    }
+}
