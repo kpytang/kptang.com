@@ -1,0 +1,223 @@
+- index: w-10
+  image_url: papers/tang-networkedsocialprivacy-cscw13ws.png
+  citation: |
+    Xinru Page, <b>Karen Tang</b>, Fred Stutzman, and Airi Lampinen. (2013). Measuring Networked Social Privacy. Proceedings of the <a href="http://cscw.acm.org/2013/">ACM Conference on Computer Supported Cooperative Work (CSCW 2013)</a>. San Antonio, Texas (February 23-27, 2013).
+  acm_url: http://dx.doi.org/10.1145/2441955.2442032
+  authorizer_url: http://dl.acm.org/authorize?6893119
+  local_url: pubs/tang-networkedsocialprivacy-cscw13ws.pdf
+
+- index: c-17
+  image_url: papers/tang-estrellita-pervasivehealth12.png
+  citation: |
+    <b>Karen P. Tang</b>, Sen H. Hirano, Karen G. Cheng, and Gillian R. Hayes. (2012). Balancing Caregiver and Clinician Needs in a Mobile Health Informatics Tool for Preterm Infants. Proceedings of the <a href="http://pervasivehealth.org/2012">6th International Conference on Pervasive Computing Technologies for Healthcare (Pervasive Health 2012)</a>. San Diego, California (May 21-24, 2012).
+  stats: |
+    acceptance rate: 33.96%
+  ieee_url: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6240387&isnumber=6240350
+  local_url: pubs/tang-estrellita-pervasivehealth12.pdf
+
+- index: c-16
+  image_url: papers/tang-estrellita-pervasivehealth12demo.png
+  citation: |
+    Sen H. Hirano, <b>Karen P. Tang</b>, Karen G. Cheng, and Gillian R. Hayes (2012). The Estrellita System: A Health Informatics Tool to Support Caregivers of Preterm Infants. Proceedings of the <a href="http://pervasivehealth.org/2012">6th International Conference on Pervasive Computing Technologies for Healthcare (Pervasive Health 2012)</a>. San Diego, California (May 21-24, 2012).
+  ieee_url: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6240356&isnumber=6240350
+  local_url: pubs/tang-estrellita-pervasivehealth12demo.pdf
+
+- index: w-9
+  image_url: papers/tang-estrellita-wihci12.png
+  citation: |
+     <b>Karen P. Tang</b>, Sen H. Hirano, Karen G. Cheng, and Gillian R. Hayes. (2012). Designing a Mobile Health Tool for Preterm Infant Wellness. Workshop on <a href="http://wii.cs.colorado.edu/wellness/">Wellness Interventions and HCI</a> at the <a href="http://pervasivehealth.org/2012">6th International Conference on Pervasive Computing Technologies for Healthcare (Pervasive Health 2012)</a>. San Diego, California (May 21-24, 2012).
+  local_url: pubs/tang-estrellita-wihci12.pdf
+
+- index: c-15
+  image_url: papers/tang-disclosurechoice-chi12.png
+  citation: |
+    <b>Karen P. Tang</b>, Jason I. Hong, and Dan P. Siewiorek. (2012). The Implications of Offering More Disclosure Choices for Social Location Sharing. Proceedings of the <a href="http://chi2012.acm.org">ACM Conference on Human Factors in Computing Systems (CHI 2012)</a>. Austin, Texas (May 5-10, 2012).
+  stats: |
+    acceptance rate: 23%
+  acm_url: http://dx.doi.org/10.1145/2207676.2207730
+  authorizer_url: http://dl.acm.org/authorize?6761339
+  local_url: pubs/tang-disclosurechoice-chi12.pdf
+
+- index: w-8
+  image_url: papers/interactiondesignwellbeing-chi12ws.png
+  extra_image_styles: "padding-bottom: 15px"
+  citation: |
+    David Coyle, Conor Linehan, <b>Karen P. Tang</b>, and Si&acirc;n Lindley. (2012). Interaction Design and Emotional Wellbeing. Extended Abstracts in the Proceedings of the <a href="http://chi2012.acm.org">ACM Conference on Human Factors in Computing Systems (CHI 2012)</a>. Austin, Texas (May 5-10, 2012).
+  acm_url: http://dx.doi.org/10.1145/2212776.2212718
+  authorizer_url: http://dl.acm.org/authorize?6775818
+  local_url: pubs/interactiondesignwellbeing-chi12ws.pdf
+
+- index: w-7
+  image_url: papers/tang-locationsharing-cscw12ws.png
+  extra_image_styles: "padding-bottom: 15px"
+  citation: |
+    <b>Karen P. Tang</b>, Jason I. Hong, and Dan P. Siewiorek. (2012). Privacy and Sharing Outcomes of Using Location Abstractions. Workshop on <a href="phitlab.host22.com/cscw2012/‎">Reconciling Privacy with Social Media</a> at <a href="http://cscw2012.org">ACM Conference on Computer Supported Cooperative Work (CSCW 2012)</a>. Seattle, Washington (February 11-15, 2012).
+  local_url: pubs/tang-locationsharing-cscw12ws.pdf
+
+- index: w-6
+  image_url: papers/tang-lbstime-ghc11.png
+  award: best paper award
+  citation: |
+    <b>Karen P. Tang</b>, Jason W. Weise, Jason I. Hong, Dan P. Siewiorek, and John Zimmerman. (2011). The Under-Appreciated Dimension of Time in Location-Based Systems. <a href="http://gracehopper.org/">Grace Hopper Celebration (GHC 2011)</a>. Portland, Oregon (November 9-12, 2011).
+  local_url: pubs/tang-lbstime-ghc11.pdf
+
+- index: w-5
+  image_url: papers/tang-estrellita-wish11.png
+  citation: |
+    <b>Karen P. Tang</b>, Karen G. Cheng, Sen Hirano, Marni Nagel, Dini Baker, and Gillian R. Hayes. (2011). Addressing the Design Challenges for a Clinically-Informed Data Capture Tool Targeted for Caregivers of Premature Infants. <a href="https://wish2011.wordpress.com/">Workshop on Interactive Systems in Healthcare (WISH 2011)</a>. Washington, D.C. (October 22, 2011).
+  local_url: pubs/tang-estrellita-wish11.pdf
+
+- index: c-14
+  image_url: papers/tang-locationviz-ubicomp11.png
+  citation: |
+    <b>Karen P. Tang</b>, Jason I. Hong., and Dan P. Siewiorek. (2011). Understanding How Visual Representations of Location Feeds Affect End-User Privacy Concerns. Proceedings of the <a href="http://www.ubicomp.org/ubicomp2011">13th International Conference on Ubiquitous Computing (Ubicomp 2011)</a>. Beijing, China (September 17-21, 2011).
+  stats: |
+    acceptance rate: 16.6%
+  acm_url: http://dx.doi.org/10.1145/2030112.2030141
+  authorizer_url: http://dl.acm.org/authorize?6589961
+  local_url: pubs/tang-locationviz-ubicomp11.pdf
+
+- index: c-13
+  image_url: papers/tang-robotprivacy-hri11.png
+  citation: |
+    Min K. Lee, <b>Karen P. Tang</b>, Jodi Forlizzi, and Sara Kiesler. (2011). Understanding user perception of privacy in human-robot interaction. Proceedings of the <a href="http://hri2011.net">6th International Conference on Human-Robot Interaction (HRI 2011)</a>. Lausanne, Switzerland (March 6-9, 2011).
+  acm_url: http://doi.acm.org/10.1145/1957656.1957721
+  authorizer_url: http://dl.acm.org/authorize?485402
+  local_url: pubs/tang-robotprivacy-hri11.pdf
+
+- index: c-12
+  image_url: papers/tang-sociallocation-ubicomp10.png
+  citation: |
+    <b>Karen P. Tang</b>, Jialiu Lin, Jason I. Hong, and Dan P. Siewiorek. (2010). Rethinking Location Sharing: Exploring the Implications of Social-Driven vs. Purpose-Driven Location Sharing. Proceedings of the <a href="http://www.ubicomp.org/ubicomp2010">12th International Conference on Ubiquitous Computing (Ubicomp 2010)</a>. Copenhagen, Denmark (September 26-29, 2010).
+  stats: |
+    acceptance rate: 19%
+  acm_url: http://dx.doi.org/10.1145/1864349.1864363
+  authorizer_url: http://dl.acm.org/authorize?390398
+  local_url: pubs/tang-sociallocation-ubicomp10.pdf
+
+- index: w-4
+  image_url: papers/tang-uist07ds.png
+  citation: |
+    <b>Karen P. Tang</b> (2007). Privacy Mechanisms for Context-Aware, Group-based Mobile Social Software. Doctoral Symposium at the <a href="http://www.acm.org/uist/uist2007">ACM Symposium on User Interface Software and Technology (UIST 2007)</a>. Newport, Rhode Island (October 7-10, 2007).
+  authorizer_url: http://www.acm.org/uist/archive/adjunct/2007/pdf/doctoral_consortium/p33-tang.pdf
+  local_url: pubs/tang-uist07ds.pdf
+
+- index: c-11
+  image_url: papers/tang-imbuddy-ubicomp07.png
+  citation: |
+    Gary Hsieh, <b>Karen P. Tang</b>, Wai-Yong Low., and Jason I. Hong. (2007). Field Deployment of IMBuddy: A Study of Privacy Control and Feedback Mechanisms for Contextual Instant Messengers. Proceedings of the <a href="http://www.ubicomp.org/ubicomp2007">9th International Conference on Ubiquitous Computing (Ubicomp 2007)</a>. Innsbruck, Austria (September 16-19, 2007).
+  stats: |
+    acceptance rate: 19%
+  springer_url: http://dx.doi.org/10.1007/978-3-540-74853-3_6
+  local_url: pubs/tang-imbuddy-ubicomp07.pdf
+
+- index: c-10
+  image_url: papers/tang-memorykaraoke-mobilehci07.png
+  citation: |
+    <b>Karen P. Tang</b>, Ian E. Smith, Jason I. Hong, Annie Ha, and Lalatendu Satpathy. (2007). Memory Karaoke: Using a Location-Aware Mobile Reminiscence Tool to Support Aging in Place. Proceedings of the <a href="http://dl.acm.org/citation.cfm?id=1377999">9th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI 2007)</a>. Singapore (September 9-12, 2007).
+  stats: |
+    acceptance rate: 22%
+  acm_url: http://doi.acm.org/10.1145/1377999.1378023
+  authorizer_url: http://dl.acm.org/authorize?088312
+  local_url: pubs/tang-memorykaraoke-mobilehci07.pdf
+
+- index: c-9
+  image_url: papers/tang-usercontrollableprivacy-hotmobile07.png
+  citation: |
+    ason Cornwell, Ian Fette, Gary Hsieh, Madhu Prabaker, Jinghai Rao, <b>Karen Tang</b>, Kami Vaniea, Lujo Bauer, Lorrie Cranor, Jason Hong, Bruce McLaren, Mike Reiter and Norman Sadeh. (2007). User-Controllable Security and Privacy for Pervasive Computing. Proceedings of the <a href="http://www.cs.toronto.edu/hotmobile2007">8th IEEE Workshop on Mobile Computing Systems and Applications (HotMobile 2007)</a>. Tucson, Arizona (February 26-27, 2007).
+  stats: |
+    acceptance rate: 33.3%
+  ieee_url: http://dx.doi.org/10.1109/HotMobile.2007.9
+  local_url: pubs/tang-usercontrollableprivacy-hotmobile07.pdf
+
+- index: c-8
+  image_url: papers/tang-hitchhiking-chi06.png
+  citation: |
+    <b>Karen P. Tang</b>, James Fogarty, Pedram Keyani, and Jason I. Hong (2006). Putting People in their Place: An Anonymous and Privacy-Sensitive Approach to Collecting Sensed Data in Location-Based Applications. Proceedings of the <a href="http://www.chi2006.org">ACM Conference on Human Factors in Computing Systems (CHI 2006)</a>. Montr&eacute;al, Canada (April 22-27, 2006).
+  stats: |
+    acceptance rate: 23%
+  acm_url: http://doi.acm.org/10.1145/1124772.1124788
+  authorizer_url: http://dl.acm.org/authorize?893791
+  local_url: pubs/tang-hitchhiking-chi06.pdf
+
+- index: w-3
+  image_url: papers/tang-ngim-chi06mososo.png
+  citation: |
+    <b>Karen P. Tang</b> and Jason I. Hong. (2006). Using current SMS and mobile IM practices to inform future social mobile application design. Workshop on Mobile Social Software at the <a href="http://www.chi2006.org">ACM Conference on Human Factors in Computing Systems (CHI 2006)</a>. Montr&eacute;al, Canada (April 22-27, 2006).
+  local_url: pubs/tang-ngim-chi06mososo.pdf
+
+- index: w-2
+  image_url: papers/tang-hitchhiking-chi06mososo.png
+  citation: |
+    James Fogarty, Jason I. Hong, Pedram Keyani, and <b>Karen P. Tang</b>. (2006). Anonymous and Privacy-Sensitive Collection of Sensed Data in Location-Based Application. Workshop on Mobile Social Software at the <a href="http://www.chi2006.org">ACM Conference on Human Factors in Computing Systems (CHI 2006)</a>. Montr&eacute;al, Canada (April 22-27, 2006).
+  local_url: pubs/tang-hitchhiking-chi06mososo.pdf
+
+- index: c-7
+  image_url: papers/gsmlocalization-hotmobile06.png
+  citation: |
+    Alex Varshavsky, Mike Y. Chen, Eyal de Lara, Jon Froehlich, Dirk Haehnel, Jeffrey Hightower, Anthony LaMarca, Fred Potter, Timothy Sohn, <b>Karen Tang</b>, and Ian Smith. (2006). Are GSM phones THE solution for localization? Proceedings of the <a href="research.ihost.com/wmcsa2006">7th IEEE Workshop on Mobile Computing Systems and Applications (HotMobile 2006)</a>. Semiahmoo Resort, Washington (April 6-7, 2006).
+  stats: |
+    acceptance rate: 30%
+  ieee_url: http://dx.doi.org/10.1109/WMCSA.2006.2
+  local_url: pubs/gsmlocalization-hotmobile06.pdf
+
+- index: c-6
+  image_url: papers/tang-bustle-hotmobile06.png
+  citation: |
+    <b>Karen P. Tang</b>, James Fogarty, Pedram Keyani, and Jason I. Hong. (2006). Bustle: Using Hitchhiking to Monitor Meaningful Locations. Proceedings of the <a href="research.ihost.com/wmcsa2006">7th IEEE Workshop on Mobile Computing Systems and Applications (HotMobiles 2006)</a>. Semiahamoo Resort, Washington (April 6-7, 2006).
+  ieee_url: http://dx.doi.org/10.1109/WMCSA.2006.5
+  local_url: pubs/tang-bustle-hotmobile06.pdf
+
+- index: w-1
+  image_url: papers/gsmmotion-ecscw05lac.png
+  citation: |
+    Ian Smith, Mike Y. Chen, Alex Varshavsky, Timothy Sohn, and <b>Karen Tang</b>. (2005). Algorithms for Detecting Motion of a GSM Mobile Phone. <a href="https://www.research.ibm.com/haifa/conferences/laac05/">Workshop on Location Awareness and Community</a> at the <a href="http://www.ecscw.org/2005.htm">European Conference on Computer-Supported Cooperative Work (ECSCW 2005)</a>. Paris, France (September 18-22. 2005).
+  local_url: pubs/gsmmotion-ecscw05lac.pdf
+
+- index: c-5
+  image_url: papers/ewatch-mse05.png
+  citation: |
+    Asim Smailagic, Dan P. Siewiorek, Uwe Maurer, Anthony Rowe, and <b>Karen P. Tang</b>. (2005). A Context-Specific Electronic Design and Prototyping Course. Proceedings of the <a href="http://www.mseconference.org/FinalProgram2005">2005 IEEE International Conference on Microelectronic Systems Education (MSE 2005)</a>. Anaheim, California (June 12-13, 2005).
+  ieee_url: http://dx.doi.org/10.1109/MSE.2005.7
+  local_url: pubs/ewatch-mse05.pdf
+
+- index: c-4
+  image_url: papers/ewatch-isvlsi05.png
+  citation: |
+    Asim Smailagic, Dan P. Siewiorek, Uwe Maurer, Anthony Rowe, and <b>Karen P. Tang</b>. (2005). eWatch: Context Sensitive System Design Case Study. Proceedings of the <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isvlsi/isvlsi2005.html">IEEE Computer Society Annual Symposium on VLSI (ISVLSI 2005)</a>. Tampa, FL (May 11-12, 2005).
+  ieee_url: http://doi.ieeecomputersociety.org/10.1109/ISVLSI.2005.31
+  local_url: pubs/ewatch-isvlsi05.pdf
+
+- index: c-3
+  image_url: papers/interruptibility-chi05.png
+  award: best paper award
+  citation: |
+    James Fogarty, Andrew J. Ko, Htet-Htet Aung, Elsa Golden, <b>Karen P. Tang</b>, and Scott E. Hudson. (2005). Examining Task Engagement in Sensor-Based Statistical Models of Human Interruptibility. Proceedings of the <a href="http://www.chi2005.org">ACM Conference on Human Factors in Computing Systems (CHI 2005)</a>. Portland, Oregon (April 2-7, 2005).
+  stats: |
+    acceptance rate: 25%
+  acm_url: http://doi.acm.org/10.1145/1054972.1055018
+  authorizer_url: http://dl.acm.org/authorize?866835
+  local_url: pubs/interruptibility-chi05.pdf
+
+- index: j-1
+  image_url: papers/mei-csl04.png
+  citation: |
+    Helen M. Meng, Berlin Chen, Sanjeev Khudanpur, Gina-Anne Levow, Wai-Kit Lo, Douglas Oard, Patrick Schone, <b>Karen Tang</b>, Hsin-min Wang, and Jianqiang Wang. (2004). Mandarin-English Information (MEI): Investigating Translingual Speech Retrieval. <a href="http://www.journals.elsevier.com/computer-speech-and-language">Computer Speech and Language</a>, 18(2), April 2004, pp. 163-179.
+  journal: 
+    name: computer speech & lang
+    url: http://dx.doi.org/10.1016/j.csl.2003.09.003
+  local_url: pubs/mei-csl04.pdf
+
+- index: c-2
+  image_url: papers/namedentities-asru01.png
+  citation: |
+    Helen M. Meng, Wai-Kit Lo, Berlin Chen, and <b>Karen Tang</b>. (2001). Generating Phonetic Cognates to Handle Named Entities in English-Chinese Cross-Language Spoken Document Retrieval. Proceedings of the <a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8037">IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU 2001)</a>. Italy (Dec 13, 2001).
+  ieee_url: http://dx.doi.org/10.1109/ASRU.2001.1034649
+  local_url: pubs/namedentities-asru01.pdf
+
+- index: c-1
+  image_url: papers/mei-hlt01.png
+  citation: |
+    Helen M. Meng, Berlin Chen, Sanjeev Khudanpur, Gina-Anne Levow, Wai-Kit Lo, Douglas Oard, Patrick Schone, <b>Karen Tang</b>, Hsin-min Wang, and Jianqiang Wang. (2001). Mandarin-English Information (MEI): Investigating Translingual Speech Retrieval. Proceedings of the <a href="http://www.elsnet.org/acl2001-hlt+km.html">2001 Human Language Technology Conference (HLT 2001)</a>. San Diego, California (March 18-21, 2001).
+  acm_url: http://dx.doi.org/10.3115/1072133.1072202
+  local_url: pubs/mei-hlt01.pdf

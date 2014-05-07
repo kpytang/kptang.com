@@ -1,0 +1,5 @@
+- index: r-1
+  image_url: papers/mei-techreport-clsp00.png
+  citation: |
+    Helen M. Meng, Berlin Chen, Sanjeev Khudanpur, Gina-Anne Levow, Wai-Kit Lo, Douglas Oard, Patrick Schone, <b>Karen Tang</b>, Hsin-min Wang, and Jianqiang Wang. (2000). Mandarin-English Information (MEI): Investigating Translingual Speech Retrieval. <a href="http://www.jhu.edu">Johns Hopkins University</a>, <a href="http://www.clsp.jhu.edu">Center for Language and Speech Processing</a> (Baltimore, Maryland). August 2000.
+  local_url: pubs/mei-techreport-clsp00.pdf

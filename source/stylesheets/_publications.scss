@@ -13,6 +13,7 @@
 
     .index {
         font-size: $small-font-size;
+        color: $darkgray;
     }
     .thumbnail {
         float: left;
@@ -50,6 +51,9 @@
       }
       a+a {
         margin-left: 0.25em;
+      }
+      .na {
+        color: $darkgray;
       }
     }
 }

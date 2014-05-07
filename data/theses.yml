@@ -1,0 +1,12 @@
+- index: t-2
+  image_url: papers/tang-phd-dissertation.png
+  citation: |
+    <b>Karen P. Tang</b> (2010). "Sometimes Less is More": Multi-Perspective Exploration of Disclosure Abstractions in Location-Aware Social Mobile Applications. Ph.D. Dissertation. Technical Report No. SCS-HCII-2010-108. <a href="http://www.cmu.edu">Carnegie Mellon University</a>, <a href="http://hcii.cs.cmu.edu">Human-Computer Interaction Institute</a> (Pittsburgh, Pennsylvania). December 2010.
+  official:
+    name: cmu pdf
+    url: http://reports-archive.adm.cs.cmu.edu/anon/hcii/abstracts/10-108.html
+  local_url: pubs/tang-phd-dissertation.pdf
+
+- index: t-1
+  citation: |
+    <b>Karen Tang</b> (2002). ZnetVis: ZebraNet Information Visualization Interfaces (for Ad-Hoc Peer-to-Peer Sensor Networks). Undergraduate Thesis. <a href="http://www.princeton.edu">Princeton University</a>, <a href="http://www.ee.princeton.edu">Department of Electrical Engineering</a> (Princeton, New Jersey). May 2002.
