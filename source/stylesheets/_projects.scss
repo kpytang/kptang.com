@@ -27,20 +27,29 @@
         float: left;
         width: 222px;
 
-        hr {
-          border-top: 1px solid $gray;
-          margin: 2px 0 5px;
-        }
-
         .image-wrapper {
           @extend .grayborder;
           img {
-            width: 220px;
+            width: $tile-width;
             border-bottom: 1px solid $lightgray;
+            -webkit-transition: .2s all;
+          }
+          &:hover .mask {
+            opacity: 1;
+            -webkit-transition: all 0.5s
+          }
+          .mask {
+            position: absolute;
+            top: 0px;
+            width: $tile-width;
+            height: $tile-height;
+            background: rgba(0,0,0,0.25);
+            opacity: 0;
           }
         }
         .project-info {
           background-color: $lightgray;
+          text-align: center;
         }
         .project-name {
           padding-left: 5px;
