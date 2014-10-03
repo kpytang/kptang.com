@@ -4,171 +4,51 @@ title: kpt - ux researcher
 
 <%= partial "hello" %>
 
-<div id="home" class="container">
+<div id="overview" class="container">
   <div class="row">
     <div class="col-md-8">
-      <section id="projects">
+      <section id="selected-projects">
         <div>
           <h2 class="subheading">selected projects</h2>
           <%= link_to "view all >>", "projects.html" %>
         </div>
-        <img class="social-media-icon" src="<%= lorem.image('100x100') %>">
-        <img class="social-media-icon" src="<%= lorem.image('100x100') %>">
-        <img class="social-media-icon" src="<%= lorem.image('100x100') %>">
-        <img class="social-media-icon" src="<%= lorem.image('100x100') %>">
+        <% data.selectedprojects.each do |project| %>
+          <%= image_tag project["image_url"] %>
+        <% end %>
       </section>
-      <section id="publications">
+      <section id="selected-publications">
         <div>
           <h2 class="subheading">selected publications</h2>
           <%= link_to "view all >>", "publications.html" %>
         </div>
+        <% data.selectedpapers.each do |paper| %>
         <article>
-          <div class="title">
-            <a href=""><%= lorem.words 7 %></a>
-            <span class="tooltips">acm</span>
-          </div>
-          <div class="author">
-            <b>Karen Tang</b>, Jason Hong, and Dan Siewiorek. <em>Ubicomp 2011</em>, pp405-414.
-          </div>
+            <div class="title">
+              <a href="/publications.html#<%= paper["index"]%>"><%= paper["title"] %></a>
+            </div>
+            <div class="author">
+              <%= paper["authors"] %>. <em><%= paper["conference"] %></em>.
+            </div>
         </article>
-        <article>
-          <div class="title">
-            <a href=""><%= lorem.words 7 %></a>
-            <span class="tooltips">acm</span>
-          </div>
-          <div class="author">
-            <b>Karen Tang</b>, Jason Hong, and Dan Siewiorek. <em>Ubicomp 2011</em>, pp405-414.
-          </div>
-        </article>
-        <article>
-          <div class="title">
-            <a href=""><%= lorem.words 7 %></a>
-            <span class="tooltips">acm</span>
-          </div>
-          <div class="author">
-            <b>Karen Tang</b>, Jason Hong, and Dan Siewiorek. <em>Ubicomp 2011</em>, pp405-414.
-          </div>
-        </article>
-        <article>
-          <div class="title">
-            <a href=""><%= lorem.words 7 %></a>
-            <span class="tooltips">acm</span>
-          </div>
-          <div class="author">
-            <b>Karen Tang</b>, Jason Hong, and Dan Siewiorek. <em>Ubicomp 2011</em>, pp405-414.
-          </div>
-        </article>
-        <article>
-          <div class="title">
-            <a href=""><%= lorem.words 7 %></a>
-            <span class="tooltips">acm</span>
-          </div>
-          <div class="author">
-            <b>Karen Tang</b>, Jason Hong, and Dan Siewiorek. <em>Ubicomp 2011</em>, pp405-414.
-          </div>
-        </article>
-        <article>
-          <div class="title">
-            <a href=""><%= lorem.words 7 %></a>
-            <span class="tooltips">acm</span>
-          </div>
-          <div class="author">
-            <b>Karen Tang</b>, Jason Hong, and Dan Siewiorek. <em>Ubicomp 2011</em>, pp405-414.
-          </div>
-        </article>
+        <% end %>
       </section>
     </div>
     <section id="feed" class="col-md-4">
       <h2 class="subheading">news & events</h2>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-      <article class="row no-gutter">
-        <div class="date col-md-4">
-          Mar 28, 2013
-        </div>
-        <div class="news col-md-8">
-          Pitched to Drive Capital
-        </div>
-      </article>
-    </section>
+       <% data.newsfeed.each do |news| %>
+        <article class="row no-gutter">
+          <div class="date col-md-3">
+            <%= news["date"] %>
+          </div>
+          <div class="news col-md-8">
+            <%= news["content"] %>
+          </div>
+          <div class="location col-md-offset-3 col-md-8">
+            <%= news["location"] %>
+          </div>
+        </article>
+        <% end %>
+      </section>
   </div>
 </div>
 

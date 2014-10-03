@@ -80,7 +80,7 @@
 - index: c-13
   image_url: papers/tang-robotprivacy-hri11.png
   citation: |
-    Min K. Lee, <b>Karen P. Tang</b>, Jodi Forlizzi, and Sara Kiesler. (2011). Understanding user perception of privacy in human-robot interaction. Proceedings of the <a href="http://hri2011.net">6th International Conference on Human-Robot Interaction (HRI 2011)</a>. Lausanne, Switzerland (March 6-9, 2011).
+    Min K. Lee, <b>Karen P. Tang</b>, Jodi Forlizzi, and Sara Kiesler. (2011). Understanding User Perception of Privacy in Human-Robot Interaction. Proceedings of the <a href="http://hri2011.net">6th International Conference on Human-Robot Interaction (HRI 2011)</a>. Lausanne, Switzerland (March 6-9, 2011).
   acm_url: http://doi.acm.org/10.1145/1957656.1957721
   authorizer_url: http://dl.acm.org/authorize?485402
   local_url: pubs/tang-robotprivacy-hri11.pdf
@@ -133,7 +133,7 @@
 - index: c-8
   image_url: papers/tang-hitchhiking-chi06.png
   citation: |
-    <b>Karen P. Tang</b>, James Fogarty, Pedram Keyani, and Jason I. Hong (2006). Putting People in their Place: An Anonymous and Privacy-Sensitive Approach to Collecting Sensed Data in Location-Based Applications. Proceedings of the <a href="http://www.chi2006.org">ACM Conference on Human Factors in Computing Systems (CHI 2006)</a>. Montr&eacute;al, Canada (April 22-27, 2006).
+    <b>Karen P. Tang</b>, James Fogarty, Pedram Keyani, and Jason I. Hong. (2006). Putting People in their Place: An Anonymous and Privacy-Sensitive Approach to Collecting Sensed Data in Location-Based Applications. Proceedings of the <a href="http://www.chi2006.org">ACM Conference on Human Factors in Computing Systems (CHI 2006)</a>. Montr&eacute;al, Canada (April 22-27, 2006).
   stats: |
     acceptance rate: 23%
   acm_url: http://doi.acm.org/10.1145/1124772.1124788

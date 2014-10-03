@@ -1,0 +1,16 @@
+- image_url: projects/thumbnails/tagalong.png
+  name: Tagalong Tours
+  description: Helping to Discover Favorite Local Places
+
+- image_url: projects/thumbnails/mailman.png
+  name: Mailman
+  description: Web App for Mailing List Email Archives
+
+- image_url: projects/thumbnails/estrellita1.png
+  name: Estrellita
+  description: Mobile Health Tool for Family Caregivers
+
+- image_url: projects/thumbnails/lsaprivacy.png
+  name: Location Privacy
+  description: Privacy Behaviors for Social Location Sharing
+

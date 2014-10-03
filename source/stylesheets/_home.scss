@@ -11,21 +11,25 @@
   }
 }
 
-#overview #projects, #overview #publications {
-  padding-bottom: 20px;
+#overview #selected-projects, #overview #selected-publications {
+  padding-bottom: 40px;
   .subheading {
-    display: inline-block;
-    padding-right: 10px;
+    display: inline;
+    padding-right: 1em;
+    margin-bottom: 1em;
   }
 }
 
-#overview #projects {
+#overview #selected-projects {
   img {
-    padding-right: 10px;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 10px;
+    @extend .grayborder;
   }
 }
 
-#overview #publications {
+#overview #selected-publications {
   .author {
     font-size: $small-font-size;
   }
@@ -36,10 +40,9 @@
 
 #overview #feed {
   font-size: $small-font-size;
-  .date {
+  .date, .location {
     color: $darkgray;
     display: inline-block;
-    margin-right: -1em;
   }
   .news {
     display: inline-block;

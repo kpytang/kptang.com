@@ -17,7 +17,7 @@ title: kpt - publications
         </div>
 
         <% data.papers.each do |paper| %>
-        <article class="row no-gutter">
+        <article class="row no-gutter anchor" id="<%= paper["index"] %>">
             <div class="col-md-1 index">[<%= paper["index"] %>]</div>
             <div class="col-md-11 pub">
                 <div class="thumbnail" style="<% if paper["extra_image_styles"] %><%= paper["extra_image_styles"] %><% end %>">
