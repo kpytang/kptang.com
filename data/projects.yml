@@ -1,60 +1,75 @@
 - image_url: projects/thumbnails/tagalong.png
   name: Tagalong Tours
   description: Helping to Discover Favorite Local Places
+  isotope_tags: social mobile
 
 - image_url: projects/thumbnails/mailman.png
   name: Mailman
   description: Web App for Mailing List Email Archives
+  isotope_tags: information
 
 - image_url: projects/thumbnails/mirrormd.png
   name: Mirror MD
   description: Dashboard for Tracking Patient Progress
+  isotope_tags: health
 
 - image_url: projects/thumbnails/estrellita1.png
   name: Estrellita
   description: Mobile Health Tool for Family Caregivers
+  isotope_tags: health mobile
 
 - image_url: projects/thumbnails/lsaprivacy.png
   name: Location Privacy
   description: Privacy Behaviors for Social Location Sharing
+  isotope_tags: privacy social mobile
 
 - image_url: projects/thumbnails/hri.png
   name: Social Robots
   description: Privacy for Human-Robot Interactions
+  isotope_tags: privacy social
 
 - image_url: projects/thumbnails/imbuddy.png
   name: IMBuddy
   description: Context-Aware Instant Messaging Client
+  isotope_tags: social mobile
 
 - image_url: projects/thumbnails/memorykaraoke.png
   name: Memory Karaoke
   description: Mobile Storytelling Tool for Older Adults
+  isotope_tags: mobile
 
 - image_url: projects/thumbnails/sms.png
   name: SMS Trends
   description: Context-Aware SMS For Feature Phones
+  isotope_tags: mobile
 
 - image_url: projects/thumbnails/hitchhiking.png
   name: Hitchhiking
   description: Sensor-based Detection of Location Busyness
+  isotope_tags: mobile
 
 - image_url: projects/thumbnails/gsm.png
   name: GSM Fingerprinting
   description: Using GSM to Compute Real-Time Location
+  isotope_tags: mobile
 
 - image_url: projects/thumbnails/ewatch.png
   name: eWatch
   description: Context-Aware Smart Watch Prototype
+  isotope_tags: mobile
 
 - image_url: projects/thumbnails/interrupter.png
   name: Interruptibility
   description: Predicting Interruptibilty for Programmers
+  isotope_tags: information
 
 - image_url: projects/thumbnails/mei.png
   name: MEI
   description: Mandarin-English Information Retrieval
+  isotope_tags: information
 
 - image_url: projects/thumbnails/zebranet.png
   name: Zebranet
   description: Low-Cost Solution for Tracking Wildlife
+  isotope_tags: mobile information
 

@@ -1,8 +1,10 @@
 // color palette
 $orange: #C95E45;
 $teal: #61AAA9;
-$lightgray: #EBEBEB;
-$darkgray: #999999;
+$lightgray: #D3D3D3;
+$gray: #CCC;
+$darkgray: #999;
+$background: white;
 
 // override bootstrap variables
 $link-color: $orange;
@@ -14,3 +16,7 @@ $small-font-size: 0.85em;
 
 // other layouts
 $article-spacer: 10px;
+
+.test {
+  border: 1px solid red;
+}

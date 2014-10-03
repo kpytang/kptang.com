@@ -9,7 +9,8 @@ $subheading-color: lighten($orange, 20%);
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  background-color: $lightgray;
+  background-color: $background;
+  padding-bottom: 20px;
 }
 
 .navbar-nav {
@@ -20,7 +21,7 @@ $subheading-color: lighten($orange, 20%);
       color: black;
       &:hover {
         color: $link-color;
-        background-color: $lightgray;
+        background-color: $background;
         border-bottom: 2px $link-color solid;
       }
     }
@@ -30,7 +31,7 @@ $subheading-color: lighten($orange, 20%);
     font-size: 1em;
     color: $link-color;
     cursor: default;
-    background-color: $lightgray;
+    background-color: $background;
     border-bottom: 2px $link-color solid;
   }
 
@@ -41,7 +42,7 @@ $subheading-color: lighten($orange, 20%);
       color: gray;
       font-weight: normal;
       cursor: default;
-      background-color: $lightgray;
+      background-color: $background;
       }
     span.tooltips span {
       top: 3em;
@@ -61,7 +62,7 @@ footer {
   font-size: $small-font-size;
   padding-top: 15px;
   padding-bottom: 5px;
-  background-color: $lightgray;
+  background-color: $background;
   text-align: center;
   margin-top: 25px;
 }
@@ -97,9 +98,9 @@ body {
 }
 
 .subsubheading {
-    font-weight: 400;
-    font-variant: small-caps;
-    font-size: 1em;
+  font-weight: 400;
+  font-variant: small-caps;
+  font-size: 1em;
 }
 
 // Tooltips
@@ -123,6 +124,7 @@ body {
   }
 }
 
+// custom classes
 img.social-media-icon {
   @include square(32);
   padding-bottom: 2px;
@@ -134,6 +136,23 @@ hr.separator {
   padding-bottom: 2em;
 }
 
+.colored-button {
+  background-color: $teal;
+  border: 1px solid $teal;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+}
+
+// accounts for fixed navbar at top
+.anchor {
+  padding-top: $navbar-height + 15px;
+  margin-top: -$navbar-height + 15px;
+}
+
+.grayborder {
+  border: 1px solid $lightgray;
+}
 //==========================
 // Media Queries
 //==========================

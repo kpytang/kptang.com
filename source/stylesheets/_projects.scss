@@ -1,26 +1,71 @@
-div#projects {
-    margin-top: 100px;
+#projects {
+  margin-top: 75px;
+
+  .title {
+    font-weight: 300;
+  }
 }
 
-#projects #sidebar {
-    #view_type h2 {
-        margin-top: 5px;
-    }
-    button {
-        margin-bottom: 5px;
-    }
+#projects #filters {
+  margin-bottom: 2em;
 }
+
 
 #projects #tiles {
-    padding-left: 45px; /* TODO: add to media query*/
-
-    .subheading {
-        padding: 8px
-    }
-
-    article.tile {
+  float: left;
+  
+  #tile-grid {
+    list-style-type: none;
+    padding: 0;
+    
+    .tile {
+      width: 225px;
+      float: left;
+      overflow: hidden;
+      
+      .project-snapshot {
         float: left;
-        padding: 8px;
+        width: 222px;
+
+        hr {
+          border-top: 1px solid $gray;
+          margin: 2px 0 5px;
+        }
+
+        .image-wrapper {
+          @extend .grayborder;
+          img {
+            width: 220px;
+            border-bottom: 1px solid $lightgray;
+          }
+        }
+        .project-info {
+          background-color: $lightgray;
+        }
+        .project-name {
+          padding-left: 5px;
+          display: block;
+          font-weight: 400;
+          font-size: 1.4em;
+          text-transform: lowercase;
+          font-variant: small-caps;
+        }
+        .project-description {
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-bottom: 10px;
+          font-weight: 300;
+        }
+        hr.project-border {
+          margin-bottom: 30px;
+        }
+      }
     }
+  }
 }
 
+@media (min-width: $screen-lg-min) {
+  .tile {
+    margin: 0px 5px 20px 0;
+  }
+}

@@ -2,48 +2,71 @@
 title: kpt - projects
 ---
 
+<%= javascript_include_tag  "vendor/isotope.pkgd.min" %>
+<%= javascript_include_tag  "vendor/imagesloaded.pkgd.min" %>
+
 <div id="projects" class="container">
-    <div class="row">
+  <h1 class="title">selected projects</h1>
 
-        <!-- SIDEBAR: filter projects -->
-        <section id="sidebar" class="col-md-3">
-            <section id="view_type" class="">
-                <h2 class="subsubheading">view type</h2>
-                <button class="inactive btn btn-sm">compact</button>
-                <button class="btn btn-default btn-sm">expanded</button>
-            </section>
-            <section id="project_type" class="">
-                <h2 class="subsubheading">filter by topic</h2>
-                <button class="inactive btn btn-sm">all</button>
-                <button class="btn btn-default btn-sm">health informatics</button>
-                <button class="btn btn-default btn-sm">privacy-aware computing</button>
-                <button class="btn btn-default btn-sm">social computing</button>
-                <button class="btn btn-default btn-sm">mobile computing</button>
-                <button class="btn btn-default btn-sm">context-aware computing</button>
-                <button class="btn btn-default btn-sm">information retrieval</button>
-            </section>
-        </section> <!-- /SIDEBAR -->
+  <div class="row">
+    <section id="filters" class="col-md-12">
+      <button class="btn btn-default btn-sm" data-filter="*">show all</button>
+      <button class="btn btn-default btn-sm" data-filter=".social">social computing</button>
+      <button class="btn btn-default btn-sm" data-filter=".health">health informatics</button>
+      <button class="btn btn-default btn-sm" data-filter=".privacy">usable privacy</button>
+      <button class="btn btn-default btn-sm" data-filter=".mobile">mobile/wearable computing</button>
+      <button class="btn btn-default btn-sm" data-filter=".information">information management</button>
+    </section> <!-- /filters -->
+  </div>
+  
+  <div class="row">
+    <section id="tiles" class="col-md-12">
+      <ul id="tile-grid" class="isotope">
+        <% data.projects.each do |project| %>
+        <li class="tile <%= project["isotope_tags"] %>">
+          <div class="project-snapshot">
+            <div class="image-wrapper">
+              <%= image_tag project["image_url"] %>
+              <div class="mask"></div>
+            </div>
+            <div class="project-info">
+              <span class="project-name"><%= project["name"] %></span>
+              <p class="project-description"><%= project["description"] %></p>
+            </div>
+          </div>
+        </li>
+        <% end %>
+      </ul>
+    </section> <!-- /tiles -->
 
-        <section id="tiles" class="col-md-9 pull-right">
-            <article class="tile">
-                <div style="width:150px;height:150px;background-color:gray"></div>
-            </article>
-            <article class="tile">
-                <div style="width:150px;height:150px;background-color:blue"></div>
-            </article>
-            <article class="tile">
-                <div style="width:150px;height:150px;background-color:gray"></div>
-            </article>
-            <article class="tile">
-                <div style="width:150px;height:150px;background-color:gray"></div>
-            </article>
-            <article class="tile">
-                <div style="width:150px;height:150px;background-color:gray"></div>
-            </article>
-            <article class="tile">
-                <div style="width:150px;height:150px;background-color:gray"></div>
-            </article>
-        </section>
+  </div> <!-- /row -->
+</div> <!-- /projects container -->
 
-    </div>
-</div>
+<script>
+$(document).ready(function(){
+    var $container = $('#tile-grid');
+    // setting up isotope options
+    $container.isotope({
+        itemSelector: '.tile',
+        layoutMode: 'fitRows'
+    });
+    // run isotope after images are loaded
+    $container.imagesLoaded( function() {
+      $container.isotope('layout');
+    });
+    // add button behaviors
+    $('#filters button').click(function(){
+    var selector = $(this).attr('data-filter');
+      $container.isotope({ 
+          filter: selector,
+          animationOptions: {
+              duration: 750,
+              easing: 'linear',
+              queue: false, 
+          }
+      });
+    return false;
+  });
+
+});
+</script>
