@@ -1,3 +1,10 @@
+- index: j-2
+  image_url: papers/tang-estrellita-tochi14.png
+  citation: |
+    Gillian R. Hayes, Karen G. Cheng, Sen H. Hirano, <b>Karen P. Tang</b>, Marni S. Nagel, and Dianne E. Baker. (2014). Estrellita: A Mobile Capture and Access Tool for the Support of Preterm Infants and Their Caregivers. <a href="http://tochi.acm.org/">ACM Transactions on Computer-Human Interaction</a>. 21(3), Article 19 (June 2014).
+  acm_url: http://doi.acm.org/10.1145/2617574
+  local_url: pubs/tang-estrellita-tochi14.pdf
+
 - index: w-10
   image_url: papers/tang-networkedsocialprivacy-cscw13ws.png
   citation: |
