@@ -11,6 +11,7 @@
     </div><!--/.navbar-header -->
     <div class="navbar-collapse collapse pull-right">
       <ul class="nav navbar-nav">
+        <li class="<%=is_page_active('/')%>"><%= link_to "home", "/" %></li>
         <li class="<%=is_page_active('/about.html')%>"><%= link_to "about", "about.html" %></li>
         <li class="<%=is_page_active('/projects.html')%>"><%= link_to "projects", "projects.html" %></li>
         <li class="inactive"><span class="tooltips">code<span>coming soon</span></span></li>

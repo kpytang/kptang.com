@@ -3,3 +3,17 @@ section#intro {
   padding-bottom: $navbar-height/2;
 }
 
+#me .heading-container {
+/*   display: inline; */
+  h2 {
+    display: inline;
+    padding-right: 1.75em;
+  }
+  i {
+    padding-right: 0.25em;
+    color: $teal;
+  }
+  span {
+/*     dispaly: inline; */
+  }
+}
