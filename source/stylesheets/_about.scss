@@ -4,7 +4,6 @@ section#intro {
 }
 
 #me .heading-container {
-/*   display: inline; */
   h2 {
     display: inline;
     padding-right: 1.75em;
@@ -12,8 +11,8 @@ section#intro {
   i {
     padding-right: 0.25em;
     color: $teal;
-  }
-  span {
-/*     dispaly: inline; */
+    &:hover {
+      color: $darkteal;
+    }
   }
 }
