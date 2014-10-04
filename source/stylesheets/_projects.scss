@@ -1,4 +1,4 @@
-.projects #projects {
+#projects {
   margin-top: $navbar-bottom-space;
   .title {
     font-weight: 300;
@@ -7,6 +7,16 @@
 
 #projects #filters {
   margin-bottom: 2em;
+  label {
+/*     background-color: $teal; */
+/*     color: black; */
+    font-weight: 300;
+    font-size: 1em;
+    &.active {
+      background-color: $teal;
+      color: white;
+    }
+  }
 }
 
 

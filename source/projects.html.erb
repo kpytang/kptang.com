@@ -9,13 +9,25 @@ title: kpt - projects
   <h1 class="title">selected projects</h1>
 
   <div class="row">
-    <section id="filters" class="col-md-12">
-      <button class="btn btn-default btn-sm" data-filter="*">show all</button>
-      <button class="btn btn-default btn-sm" data-filter=".social">social computing</button>
-      <button class="btn btn-default btn-sm" data-filter=".health">health informatics</button>
-      <button class="btn btn-default btn-sm" data-filter=".privacy">usable privacy</button>
-      <button class="btn btn-default btn-sm" data-filter=".mobile">mobile/wearable computing</button>
-      <button class="btn btn-default btn-sm" data-filter=".information">information management</button>
+    <section id="filters" class="col-md-12" data-toggle="buttons">
+      <label class="btn btn-default btn-sm active" data-filter="*">
+        <input type="radio" name="options" id="option1" checked>show all
+      </label>
+      <label class="btn btn-default btn-sm" data-filter=".social">
+        <input type="radio" name="options" id="option2" checked>social computing
+      </label>
+      <label class="btn btn-default btn-sm" data-filter=".health">
+        <input type="radio" name="options" id="option3" checked>health informatics
+      </label>
+      <label class="btn btn-default btn-sm" data-filter=".privacy">
+        <input type="radio" name="options" id="option4" checked>usable privacy
+      </label>
+      <label class="btn btn-default btn-sm" data-filter=".mobile">
+        <input type="radio" name="options" id="option5" checked>mobile computing
+      </label>
+      <label class="btn btn-default btn-sm" data-filter=".information">
+        <input type="radio" name="options" id="option6" checked>information management
+      </label>
     </section> <!-- /filters -->
   </div>
   
@@ -54,9 +66,9 @@ $(document).ready(function(){
     $container.imagesLoaded( function() {
       $container.isotope('layout');
     });
-    // add button behaviors
-    $('#filters button').click(function(){
-    var selector = $(this).attr('data-filter');
+    // add filter behaviors
+    $('#filters label').click(function(){
+      var selector = $(this).attr('data-filter');
       $container.isotope({ 
           filter: selector,
           animationOptions: {
@@ -65,10 +77,7 @@ $(document).ready(function(){
               queue: false, 
           }
       });
-    return false;
   });
 
-  // hover effect
-  
 });
 </script>
