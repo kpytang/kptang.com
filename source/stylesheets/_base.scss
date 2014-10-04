@@ -31,27 +31,49 @@ $subheading-color: lighten($orange, 20%);
     font-size: 1em;
     color: $link-color;
     cursor: default;
-    background-color: $background;
     border-bottom: 2px $link-color solid;
   }
 
+  // tooltip styles
   li.inactive {
-    span {
+    .tooltips {
       display: block;
       padding: 20px 15px;
+      font-weight: normal;
       color: gray;
-      font-weight: normal;
       cursor: default;
-      background-color: $background;
-      }
-    span.tooltips span {
-      top: 3em;
-      padding: 5px 0;
-      background-color: gray;
-      color: white;
-      text-transform: lowercase;
-      font-weight: normal;
     }
+  }
+  
+  #contact a:hover {
+    border-bottom: none;
+    .tooltips span {
+      background-color: $orange;
+    }
+  }
+
+  .tooltips span {
+    top: 3em;
+  }
+}
+
+// show/hide tooltips
+.tooltips {
+  span {
+    display: none;
+  }
+  &:hover span {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 8em;
+    padding: 5px 0;
+    background-color: $darkgray;
+    color: white;
+    text-transform: lowercase;
+    font-weight: normal;
+    border: 1px solid;
+    border-radius: 10px;
   }
 }
 
@@ -101,27 +123,6 @@ body {
   font-weight: 400;
   font-variant: small-caps;
   font-size: 1em;
-}
-
-// Tooltips
-.tooltips {
-  position: relative;
-
-  span {
-    margin-left: -999em;
-    position: absolute;
-  }
-
-  &:hover span {
-    position: absolute;
-    left: 1em;
-    z-index: 99;
-    margin-left: 0;
-    text-align: center;
-    width: 100px;
-    border: 1px solid;
-    border-radius: 10px;
-  }
 }
 
 // custom classes
