@@ -1,3 +1,8 @@
+- date: Oct 17-19
+  content: |
+    Attending <a href="http://pghgivecamp.org/">GiveCamp</a>
+  location: Pittsburgh, PA
+
 - date: Oct 7-10
   content: |
     Judging the Student Research Competition at <a href="http://gracehopper.org/">Grace Hopper</a>
@@ -5,22 +10,22 @@
 
 - date: Aug 6-9
   content: |
-    Presenting a UX 101 talk at <a href="http://flocktofedora.org/">Flock</a>
+    Presented a UX 101 talk at <a href="http://flocktofedora.org/">Flock</a>
   location: Prague, Czech Republic
 
 - date: Jun 25-26
   content: |
-    Attending <a href="https://www.google.com/events/io">Google I/O</a>, thanks to support from the <a href="http://anitaborg.org">Anita Borg Institute</a>
+    Attended <a href="https://www.google.com/events/io">Google I/O</a>, thanks to support from the <a href="http://anitaborg.org">Anita Borg Institute</a>
   location: San Francisco, CA
 
 - date: Jun 24
   content: |
-    Presenting work on <a href="https://fedorahosted.org/hyperkitty/">Hyperkitty</a> and responsive web design at <a href="http://opensourcebridge.org">OS Bridge</a>
+    Presented work on <a href="https://fedorahosted.org/hyperkitty/">Hyperkitty</a> and responsive web design at <a href="http://opensourcebridge.org">OS Bridge</a>
   location: Portland, OR
 
 - date: Jun 20-21
   content: |
-    Attending <a href="http://portland.adacamp.org/">AdaCamp</a> and co-leading self-defense workshop
+    Attended <a href="http://portland.adacamp.org/">AdaCamp</a> and co-instructed self-defense workshop
   location: Portland, OR
 
 - date: May 31
