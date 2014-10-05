@@ -77,6 +77,7 @@ $subheading-color: lighten($orange, 20%);
   }
 }
 
+
 //==========================
 // Footer
 //==========================
@@ -88,6 +89,7 @@ footer {
   text-align: center;
   margin-top: 25px;
 }
+
 
 //==========================
 // Structural elements
@@ -123,12 +125,6 @@ body {
   font-weight: 400;
   font-variant: small-caps;
   font-size: 1em;
-}
-
-// custom classes
-img.social-media-icon {
-  @include square(32);
-  padding-bottom: 2px;
 }
 
 hr.separator {
