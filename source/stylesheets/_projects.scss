@@ -8,8 +8,6 @@
 #projects #filters {
   margin-bottom: 2em;
   label {
-/*     background-color: $teal; */
-/*     color: black; */
     font-weight: 300;
     font-size: 1em;
     &.active {
@@ -52,8 +50,17 @@
             top: 0px;
             width: $tile-width;
             height: $tile-height;
-            background: rgba(0,0,0,0.25);
+            background: rgba(0,0,0,0.75);
             opacity: 0;
+          }
+          .mask-heading {
+            display: block;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+            margin: 2em;
+            text-transform: lowercase;
+            font-variant: small-caps;
           }
         }
         .project-info {
