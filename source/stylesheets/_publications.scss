@@ -1,59 +1,79 @@
 #publications {
 
-    .legend {
-        font-size: $small-font-size;
-        color: $darkgray;
-        padding-bottom: 10px;
-        font-style: italic;
-        
-        .legend-label {
-            padding-right: 10px;
-        }
-    }
-
-    .index {
-        font-size: $small-font-size;
-        color: $darkgray;
-    }
-    .thumbnail {
-        float: left;
-        display: inline-block;
-        margin-right: 10px;
-        &.extra-padding {
-          height: 80px;
-        }
-    }
-
-    .stats {
-        font-size: $small-font-size;
-        color: $darkgray;
-        padding-left: 0.5em;
-    }
-    .links {
-        font-size: $small-font-size;
-        display: inline-block;
-        padding-top: 0.75em;
-        float: left;
-    }
-
-    .links {
-      &:before {
-        content: "links:";
-        color: $darkgray;
-        padding-right: 0.25em;
+  .legend {
+      font-size: $small-font-size;
+      color: $darkgray;
+      padding-bottom: 10px;
+      font-style: italic;
+      
+      .legend-label {
+          padding-right: 10px;
       }
-      a {
+  }
+
+  #filters {
+    /* hack to make sure links are clickable when dealing with fixed navbar offset for anchors */
+    z-index: 999;
+    label {
+      font-weight: 300;
+      font-size: 1em;
+      margin-bottom: 15px;
+      &.active {
         background-color: $teal;
-        border: 1px solid $teal;
-        border-radius: 5px;
         color: white;
-        padding: 3px;
-      }
-      a+a {
-        margin-left: 0.25em;
-      }
-      .na {
-        color: $darkgray;
       }
     }
+  }
+
+  // accounts for fixed navbar at top, need offset for jump links
+  .anchor {
+    padding-top: 2*$navbar-height;
+    margin-top: -(2*$navbar-height);
+  }
+
+  .index {
+      font-size: $small-font-size;
+      color: $darkgray;
+  }
+  .thumbnail {
+      float: left;
+      display: inline-block;
+      margin-right: 10px;
+      &.extra-padding {
+        height: 80px;
+      }
+  }
+
+  .stats {
+      font-size: $small-font-size;
+      color: $darkgray;
+      padding-left: 0.5em;
+  }
+  .links {
+      font-size: $small-font-size;
+      display: inline-block;
+      padding-top: 0.75em;
+      float: left;
+  }
+
+  .links {
+    &:before {
+      content: "links:";
+      color: $darkgray;
+      padding-right: 0.25em;
+    }
+    a {
+      background-color: $teal;
+      border: 1px solid $teal;
+      border-radius: 5px;
+      color: white;
+      padding: 3px;
+    }
+    a+a {
+      margin-left: 0.25em;
+    }
+    .na {
+      color: $darkgray;
+    }
+  }
 }

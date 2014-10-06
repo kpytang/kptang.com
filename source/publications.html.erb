@@ -3,25 +3,50 @@ title: kpt - publications
 ---
 
 <div id="publications" class="container">
+    <h1 class="title">publications</h1>
 
-    <h2>publications</h2>
-    <span class="subheading">(peer-reviewed)</span>
-
-    <section id="papers">
-        <div class="legend row">
-            <div class="col-md-12">
-                <span class="legend-label">c = conference paper (peer-reviewed)</span>
-                <span class="legend-label">j = journal article (peer-reviewed)</span>
-                <span class="legend-label">w = workshop paper (lightly peer-reviewed)</span>
-            </div>
+    <div class="legend row">
+        <div class="col-md-12">
+            <span class="legend-label">c = conference paper (peer-reviewed)</span>
+            <span class="legend-label">j = journal article (peer-reviewed)</span>
+            <span class="legend-label">w = workshop paper (lightly peer-reviewed)</span>
+            <span class="legend-label">t = thesis</span>
+            <span class="legend-label">r = technical report</span>
         </div>
+    </div>
 
+    <div class="row">
+      <section id="filters" class="col-md-12" data-toggle="buttons">
+        <label class="btn btn-default btn-sm active" data-filter="*">
+          <input type="radio" name="options" id="option1" checked>show all (<%= data.papers.count %>)
+        </label>
+        <label class="btn btn-default btn-sm" data-filter=".c">
+          <input type="radio" name="options" id="option2" >conference papers
+        </label>
+        <label class="btn btn-default btn-sm" data-filter=".j">
+          <input type="radio" name="options" id="option2" >journal articles
+        </label>
+        <label class="btn btn-default btn-sm" data-filter=".w">
+          <input type="radio" name="options" id="option2" >workshop papers
+        </label>
+        <label class="btn btn-default btn-sm" data-filter=".t">
+          <input type="radio" name="options" id="option2" >theses
+        </label>
+        <label class="btn btn-default btn-sm" data-filter=".r">
+          <input type="radio" name="options" id="option2" >technical reports
+        </label>
+      </section> <!-- /filters -->
+    </div>
+
+    <section id="papers" class="isotope">
         <% data.papers.each do |paper| %>
-        <article class="row no-gutter anchor" id="<%= paper["index"] %>">
+        <article class="row no-gutter anchor paper <%= paper["index"][0] %>" id="<%= paper["index"] %>">
             <div class="col-md-1 index">[<%= paper["index"] %>]</div>
             <div class="col-md-11 pub">
                 <div class="thumbnail" style="<% if paper["extra_image_styles"] %><%= paper["extra_image_styles"] %><% end %>">
-                  <%= image_tag paper["image_url"] %>
+                  <% if paper["image_url"] %><%= image_tag paper["image_url"] %>
+                  <% else %><%= image_tag 'papers/blank-landscape.png' %>
+                  <% end %>
                 </div>
                 <div class="citation">
                     <% if paper["award"] %><span class="stats" style="padding-left:0;">[<%= paper["award"] %>]</span><% end %>
@@ -34,68 +59,50 @@ title: kpt - publications
                     <% if paper["acm_url"] %><%= link_to 'acm', paper["acm_url"] %> <% end %>
                     <% if paper["authorizer_url"] %><%= link_to 'acm pdf', paper["authorizer_url"] %> <% end %>
                     <% if paper["journal"] %><%= link_to paper["journal"]["name"], paper["journal"]["url"] %> <% end %>
-                    <% if paper["local_url"] %><%= link_to 'local pdf', paper["local_url"] %> <% end %>
-                </div>
-            </div>
-        </article>
-        <% end %>
-
-    </section> <!-- /publications -->
-
-
-
-    <h2>theses</h2>
-
-    <section id="theses">
-
-        <% data.theses.each do |thesis| %>
-        <article class="row no-gutter">
-            <div class="col-md-1 index">[<%= thesis["index"] %>]</div>
-            <div class="col-md-11 pub">
-                <div class="thumbnail">
-                  <% if thesis["image_url"] %><%= image_tag thesis["image_url"] %>
-                  <% else %><%= image_tag 'papers/blank-landscape.png' %>
-                  <% end %>
-                </div>
-                <div class="citation">
-                    <%= thesis["citation"] %>
-                </div>
-                <div class="links">
-                    <% if thesis["official"] %><%= link_to thesis["official"]["name"], thesis["official"]["url"] %> <% end %>
-                    <% if thesis["local_url"] %><%= link_to 'local pdf', thesis["local_url"] %>
+                    <!-- for thesis and tech reports -->
+                    <% if paper["official"] %><%= link_to paper["official"]["name"], paper["official"]["url"] %> <% end %>
+                    <!-- most papers should have local copies --> 
+                    <% if paper["local_url"] %><%= link_to 'local pdf', paper["local_url"] %>
                     <% else %> <span class="na">not available</span>
                     <% end %>
                 </div>
             </div>
         </article>
         <% end %>
-
-    </section> <!-- /theses -->
-
-
-
-    <h2>technical reports</h2>
-
-    <section id="reports">
-
-        <% data.reports.each do |report| %>
-        <article class="row no-gutter">
-            <div class="col-md-1 index">[<%= report["index"] %>]</div>
-            <div class="col-md-11 pub">
-                <div class="thumbnail">
-                  <%= image_tag report["image_url"] %>
-                </div>
-                <div class="citation">
-                    <%= report["citation"] %>
-                </div>
-                <div class="links">
-                    <% if report["official"] %><%= link_to report["official"]["name"], report["official"]["url"] %> <% end %>
-                    <% if report["local_url"] %><%= link_to 'local pdf', report["local_url"] %> <% end %>
-                </div>
-            </div>
-        </article>
-        <% end %>
-
-    </section> <!-- /technical reports -->
+    </section> <!-- /publications -->
 
 </div>
+
+<%= javascript_include_tag  "vendor/isotope.pkgd.min" %>
+<%= javascript_include_tag  "vendor/imagesloaded.pkgd.min" %>
+<script>
+var $container = $('#papers');
+$(document).ready(function(){
+    // setting up isotope options
+    $container.isotope({
+      itemSelector: '.paper',
+      layoutMode: 'fitRows'
+    });
+
+    // run isotope after images are loaded
+    $container.imagesLoaded( function() {
+      $container.isotope('layout');
+    });
+
+    // add filter behaviors
+    $('#filters label').click(function(){
+      var selector = $(this).attr('data-filter');
+      var $filtered = $container.isotope({ 
+          filter: selector,
+          animationOptions: {
+              duration: 750,
+              easing: 'linear',
+              queue: false, 
+          }
+      });
+    });
+
+});
+
+</script>
+

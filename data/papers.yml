@@ -92,6 +92,15 @@
   authorizer_url: http://dl.acm.org/authorize?485402
   local_url: pubs/tang-robotprivacy-hri11.pdf
 
+- index: t-2
+  image_url: papers/tang-phd-dissertation.png
+  citation: |
+    <b>Karen P. Tang</b> (2010). "Sometimes Less is More": Multi-Perspective Exploration of Disclosure Abstractions in Location-Aware Social Mobile Applications. Ph.D. Dissertation. Technical Report No. SCS-HCII-2010-108. <a href="http://www.cmu.edu">Carnegie Mellon University</a>, <a href="http://hcii.cs.cmu.edu">Human-Computer Interaction Institute</a> (Pittsburgh, Pennsylvania). December 2010.
+  official:
+    name: cmu pdf
+    url: http://reports-archive.adm.cs.cmu.edu/anon/hcii/abstracts/10-108.html
+  local_url: pubs/tang-phd-dissertation.pdf
+
 - index: c-12
   image_url: papers/tang-sociallocation-ubicomp10.png
   citation: |
@@ -215,6 +224,10 @@
     url: http://dx.doi.org/10.1016/j.csl.2003.09.003
   local_url: pubs/mei-csl04.pdf
 
+- index: t-1
+  citation: |
+    <b>Karen Tang</b> (2002). ZnetVis: ZebraNet Information Visualization Interfaces (for Ad-Hoc Peer-to-Peer Sensor Networks). Undergraduate Thesis. <a href="http://www.princeton.edu">Princeton University</a>, <a href="http://www.ee.princeton.edu">Department of Electrical Engineering</a> (Princeton, New Jersey). May 2002.
+
 - index: c-2
   image_url: papers/namedentities-asru01.png
   citation: |
@@ -228,3 +241,9 @@
     Helen M. Meng, Berlin Chen, Sanjeev Khudanpur, Gina-Anne Levow, Wai-Kit Lo, Douglas Oard, Patrick Schone, <b>Karen Tang</b>, Hsin-min Wang, and Jianqiang Wang. (2001). Mandarin-English Information (MEI): Investigating Translingual Speech Retrieval. Proceedings of the <a href="http://www.elsnet.org/acl2001-hlt+km.html">2001 Human Language Technology Conference (HLT 2001)</a>. San Diego, California (March 18-21, 2001).
   acm_url: http://dx.doi.org/10.3115/1072133.1072202
   local_url: pubs/mei-hlt01.pdf
+
+- index: r-1
+  image_url: papers/mei-techreport-clsp00.png
+  citation: |
+    Helen M. Meng, Berlin Chen, Sanjeev Khudanpur, Gina-Anne Levow, Wai-Kit Lo, Douglas Oard, Patrick Schone, <b>Karen Tang</b>, Hsin-min Wang, and Jianqiang Wang. (2000). Mandarin-English Information (MEI): Investigating Translingual Speech Retrieval. <a href="http://www.jhu.edu">Johns Hopkins University</a>, <a href="http://www.clsp.jhu.edu">Center for Language and Speech Processing</a> (Baltimore, Maryland). August 2000.
+  local_url: pubs/mei-techreport-clsp00.pdf

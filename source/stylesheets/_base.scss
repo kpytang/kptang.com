@@ -140,14 +140,15 @@ hr.separator {
   padding: 3px;
 }
 
-// accounts for fixed navbar at top
-.anchor {
-  padding-top: $navbar-height + 15px;
-  margin-top: -$navbar-height + 15px;
-}
-
 .grayborder {
   border: 1px solid $lightgray;
+}
+
+#projects, #publications {
+  margin-top: $navbar-bottom-space;
+  .title {
+    font-weight: 300;
+  }
 }
 //==========================
 // Media Queries
