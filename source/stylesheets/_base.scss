@@ -44,7 +44,11 @@ $subheading-color: lighten($orange, 20%);
     }
   }
   
-  #contact a:hover {
+  #resume .tooltips {
+    color: gray;
+  }
+  
+  #resume a:hover, #contact a:hover {
     border-bottom: none;
     .tooltips span {
       background-color: $orange;
